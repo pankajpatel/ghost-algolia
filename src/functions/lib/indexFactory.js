@@ -30,19 +30,20 @@ const indexFactory = (algoliaSettings) => {
       return fragments.length;
     },
     save() {
-      return index.addObjects(fragments);
+      return index.saveObjects(fragments);
+    },
+    update(createIfNotExists = true) {
+      return index.partialUpdateObjects(fragments, { createIfNotExists });
     },
     // TODO
     delete(post) {
-      return index.deleteByQuery(post.attributes.uuid, {
-        restrictSearchableAttributes: 'post_uuid',
-      });
+      return index.deleteBy({ filters: `post_uuid:${post.attributes.uuid}` });
     },
     getFragments() {
       return fragments;
     },
     countRecords() {
-      return index.search({ query: '', hitsPerPage: 0 }).then(queryResult => queryResult.nbHits);
+      return index.search('', { hitsPerPage: 0 }).then(queryResult => queryResult.nbHits);
     },
   };
 };
