@@ -30,7 +30,9 @@ const indexFactory = (algoliaSettings) => {
       return fragments.length;
     },
     save() {
-      return index.saveObjects(fragments);
+      return index.saveObjects(fragments, {
+        autoGenerateObjectIDIfNotExist: true
+      });
     },
     update(createIfNotExists = true) {
       return index.partialUpdateObjects(fragments, { createIfNotExists });
