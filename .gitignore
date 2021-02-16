@@ -25,3 +25,5 @@ node_modules/
 
 # Netlify
 .netlify/
+# Local Netlify folder
+.netlify
