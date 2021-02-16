@@ -1,5 +1,4 @@
 import IndexFactory from '@tryghost/algolia-indexer';
-import transforms from '@tryghost/algolia-fragmenter';
 
 exports.handler = async (event) => {
     if (!process.env.ALGOLIA_ACTIVE === 'TRUE') {
@@ -15,42 +14,29 @@ exports.handler = async (event) => {
         index: process.env.ALGOLIA_INDEX
     };
 
-    let {post} = JSON.parse(event.body);
-    post = (post && Object.keys(post.current).length > 0 && post.current) || {};
+    const {post} = JSON.parse(event.body);
 
-    if (!post || Object.keys(post).length < 1) {
+    // Updated posts are in `post.current`, deleted are in `post.previous`
+    const {slug} = (post.current && Object.keys(post.current).length && post.current)
+                   || (post.previous && Object.keys(post.previous).length && post.previous);
+
+    if (!slug) {
         return {
             statusCode: 200,
             body: `No valid request body detected`
         };
     }
 
-    const node = [];
-
-    // Transformer methods need an Array of Objects
-    node.push(post);
-
-    // Transform into Algolia object with the properties we need
-    const algoliaObject = transforms.transformToAlgoliaObject(node);
-
-    // Create fragments of the post
-    const fragments = algoliaObject
-        .reduce(transforms.fragmentTransformer, [])
-        .map(item => {
-            const post = item;
-            delete post.html;
-            return post;
-        })
     try {
         // Instanciate the Algolia indexer, which connects to Algolia and
         // sets up the settings for the index.
         const index = new IndexFactory(algoliaSettings);
-        await index.setSettingsForIndex();
-        await index.save(fragments);
-        console.log('Fragments successfully saved to Algolia index'); // eslint-disable-line no-console
+        await index.initIndex();
+        await index.delete(slug);
+        console.log(`Fragments for slug "${slug}" successfully removed from Algolia index`); // eslint-disable-line no-console
         return {
             statusCode: 200,
-            body: `Post "${post.title}" has been added to the index.`
+            body: `Post "${slug}" has been removed from the index.`
         };
     } catch (error) {
         console.log(error); // eslint-disable-line no-console
