@@ -37,7 +37,7 @@ exports.handler = async (event, context, callback) => {
 
   if (index.connect() && totalFragments) {
     index
-      .update()
+      .save()
       .then(() => {
         callback(null, {
           statusCode: 200,
