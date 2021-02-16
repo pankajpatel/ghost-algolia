@@ -18,21 +18,23 @@
   },
   "homepage": "https://github.com/mlbrgl/ghost-algolia#readme",
   "dependencies": {
+    "@tryghost/algolia-fragmenter": "^0.2.0",
+    "@tryghost/algolia-indexer": "^0.1.4",
     "@tryghost/content-api": "^1.4.14",
     "algoliasearch": "^4.0.0",
     "encoding": "^0.1.13",
     "node-fetch": "^2.6.1",
-    "parse5": "^5.1.0",
+    "parse5": "^6.0.1",
     "query-string": "^6.14.0",
-    "slug": "^1.0.0",
+    "slug": "^4.0.2",
     "striptags": "^3.1.1"
   },
   "devDependencies": {
-    "dotenv-webpack": "^1.7.0",
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.16.0",
-    "netlify-lambda": "^1.4.3"
+    "dotenv-webpack": "^6.0.0",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "netlify-lambda": "^2.0.3"
   },
   "scripts": {
     "serve": "netlify-lambda serve --config ./webpack.functions.js src/functions ",
