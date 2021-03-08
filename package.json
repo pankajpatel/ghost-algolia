@@ -20,18 +20,18 @@
   "dependencies": {
     "@tryghost/algolia-fragmenter": "^0.2.0",
     "@tryghost/algolia-indexer": "^0.1.4",
-    "@tryghost/content-api": "^1.4.14",
-    "algoliasearch": "^4.0.0",
+    "@tryghost/content-api": "^1.5.0",
+    "algoliasearch": "^4.8.6",
     "encoding": "^0.1.13",
     "node-fetch": "^2.6.1",
     "parse5": "^6.0.1",
-    "query-string": "^6.14.0",
-    "slug": "^4.0.2",
+    "query-string": "^6.14.1",
+    "slug": "^4.0.3",
     "striptags": "^3.1.1"
   },
   "devDependencies": {
-    "dotenv-webpack": "^6.0.0",
-    "eslint": "^7.20.0",
+    "dotenv-webpack": "^7.0.1",
+    "eslint": "^7.21.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
     "netlify-lambda": "^2.0.3"
