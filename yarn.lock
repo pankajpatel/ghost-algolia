@@ -2378,7 +2378,7 @@ dotenv-defaults@^2.0.1:
   dependencies:
     dotenv "^8.2.0"
 
-dotenv-webpack@^7.0.1:
+dotenv-webpack@7.0.1:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/dotenv-webpack/-/dotenv-webpack-7.0.1.tgz#11e1a1c182c180e4a4c24e17c0ea14c45531954a"
   integrity sha512-UT7Oqs0UlStNMtAdj8hqTlh0uy5qWni2vXNywMvvnST/weV8Ok170cOQsVvSIGx1Ty3jJOzH8TuyPWW0y8XmoQ==
@@ -2546,7 +2546,7 @@ escodegen@^1.9.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-airbnb-base@^14.2.1:
+eslint-config-airbnb-base@14.2.1:
   version "14.2.1"
   resolved "https://registry.yarnpkg.com/eslint-config-airbnb-base/-/eslint-config-airbnb-base-14.2.1.tgz#8a2eb38455dc5a312550193b319cdaeef042cd1e"
   integrity sha512-GOrQyDtVEc1Xy20U7vsB2yAoB4nBlfH5HZJeatRXHleO+OS5Ot+MWij4Dpltw4/DyIkqUfqz1epfhVR5XWWQPA==
@@ -2571,7 +2571,7 @@ eslint-module-utils@^2.6.0:
     debug "^2.6.9"
     pkg-dir "^2.0.0"
 
-eslint-plugin-import@^2.22.1:
+eslint-plugin-import@2.22.1:
   version "2.22.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.22.1.tgz#0896c7e6a0cf44109a2d97b95903c2bb689d7702"
   integrity sha512-8K7JjINHOpH64ozkAhpT3sd+FswIZTfMZTjdx052pnWrgRCVfp8op9tbjpAk3DdUeI/Ba4C8OjdC0r90erHEOw==
@@ -2623,7 +2623,7 @@ eslint-visitor-keys@^2.0.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-2.0.0.tgz#21fdc8fbcd9c795cc0321f0563702095751511a8"
   integrity sha512-QudtT6av5WXels9WjIM7qz1XD1cWGvX4gGXvp/zBn9nXG02D0utdU3Em2m/QjTnrsk6bBjmCygl3rmj118msQQ==
 
-eslint@^7.21.0:
+eslint@7.21.0:
   version "7.21.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.21.0.tgz#4ecd5b8c5b44f5dedc9b8a110b01bbfeb15d1c83"
   integrity sha512-W2aJbXpMNofUp0ztQaF40fveSsJBjlSCSWpy//gzfTvwC+USs/nceBrKmlJOiM8r1bLwP2EuYkCqArn/6QTIgg==
@@ -4200,7 +4200,7 @@ neo-async@^2.6.1:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-netlify-lambda@^2.0.3:
+netlify-lambda@2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/netlify-lambda/-/netlify-lambda-2.0.3.tgz#810253064584ee684efe0f5776d702a51b305507"
   integrity sha512-QiFKYlCookKF0we/ny65ejHfDK5rKSC7jC0KbSVehsS/nh9eRTip2lnJ1ecVwDUbeyAnq20s5YsCK14Tr//DjA==
