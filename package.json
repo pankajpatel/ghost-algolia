@@ -19,7 +19,7 @@
   "homepage": "https://github.com/mlbrgl/ghost-algolia#readme",
   "dependencies": {
     "@tryghost/algolia-fragmenter": "^0.2.0",
-    "@tryghost/algolia-indexer": "^0.1.4",
+    "@tryghost/algolia-indexer": "^0.2.0",
     "@tryghost/content-api": "^1.5.0",
     "algoliasearch": "^4.8.6",
     "encoding": "^0.1.13",
