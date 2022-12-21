@@ -24,7 +24,7 @@
     "algoliasearch": "^4.8.6",
     "encoding": "^0.1.13",
     "node-fetch": "^3.0.0",
-    "parse5": "^6.0.1",
+    "parse5": "^7.0.0",
     "query-string": "^8.0.0",
     "slug": "^8.0.0",
     "striptags": "^3.1.1"
