@@ -1242,9 +1242,9 @@
     fastq "^1.6.0"
 
 "@tryghost/algolia-fragmenter@^0.2.0":
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/@tryghost/algolia-fragmenter/-/algolia-fragmenter-0.2.4.tgz#51e622eb913e9213c355c32819cb09548e5971fc"
-  integrity sha512-8tbn0x5MRgVYyJFKj6eF9er8rx/+3T80qlxjixs571UrpE71GEbuVHMPrPbu9E5sObbgnoSBwnCZ+W6Bt70d3g==
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/@tryghost/algolia-fragmenter/-/algolia-fragmenter-0.2.5.tgz#8a3c8f373ddaa23ee8f8a6304d68f1a542a0c895"
+  integrity sha512-YBH9+M6HMpuV0TLgZkhzXZBMyZIWxz9k02RDPQ6vkmXsViNosP981SKSNaN9IE0VIKRoJVLRVY1PEZLpEs1Q2Q==
   dependencies:
     algolia-html-extractor "0.0.1"
 
@@ -2341,7 +2341,7 @@ core-js-compat@^3.25.1:
 core-util-is@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
-  integrity sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
+  integrity sha512-3lqz5YjWTYnW6dlDa5TLaTCcShfar1e40rmcJVwCBJC6mWlFuj0eCHIElmG1g5kyuJ/GD+8Wn4FFCcz4gJPfaQ==
 
 core-util-is@~1.0.0:
   version "1.0.3"
@@ -4503,9 +4503,9 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
 
 nwsapi@^2.0.7:
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/nwsapi/-/nwsapi-2.2.4.tgz#fd59d5e904e8e1f03c25a7d5a15cfa16c714a1e5"
-  integrity sha512-NHj4rzRo0tQdijE9ZqAx6kYDcoRwYwSYzCA8MY3JzfxlrvEU0jhnhJT9BhqhJs7I/dKcrDm6TyulaRqZPIhN5g==
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/nwsapi/-/nwsapi-2.2.5.tgz#a52744c61b3889dd44b0a158687add39b8d935e2"
+  integrity sha512-6xpotnECFy/og7tKSBVmUNft7J3jyXAka4XvG6AUhFWRz+Q/Ljus7znJAA3bxColfQLdS+XsjoodtJfCgeTEFQ==
 
 oauth-sign@~0.9.0:
   version "0.9.0"
