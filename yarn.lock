@@ -2179,9 +2179,9 @@
     algoliasearch "4.18.0"
 
 "@tryghost/content-api@^1.5.0":
-  version "1.11.16"
-  resolved "https://registry.yarnpkg.com/@tryghost/content-api/-/content-api-1.11.16.tgz#2fc8b1d03ee15dd16970ae1e340992a11ecbf4f1"
-  integrity sha512-sssD96EQj4W8uSZqL9+TlWP/2YS7ysA9jFMLqfAiJXkcXP1+kCsFAWOkZ3DeS5QZ5PKQSti+L69yYGmkMVfzxA==
+  version "1.11.20"
+  resolved "https://registry.yarnpkg.com/@tryghost/content-api/-/content-api-1.11.20.tgz#5b3ccb432e9e2f74a2bd6726aa8af8d1de2d3fbf"
+  integrity sha512-VlCfHP4IMHjTx2iIP+xXT7lUmZalC8StSTchgrfQtIIOkbtd5lNnklqnfUuo2teI8Fag28/KwrLXRVg1g/wO+A==
   dependencies:
     axios "^1.0.0"
 
@@ -2686,9 +2686,9 @@ aws4@^1.8.0:
   integrity sha512-NmWvPnx0F1SfrQbYwOi7OeaNGokp9XhzNioJ/CSBs8Qa4vxug81mhJEAVZwxXuBmYB5KDRfMq/F3RR0BIU7sWg==
 
 axios@^1.0.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.4.0.tgz#38a7bf1224cd308de271146038b551d725f0be1f"
-  integrity sha512-S4XCWMEmzvo64T9GfvQDOXgYRDJ/wsSZc7Jvdgx5u1sd0JwsuPLqb3SYmusag+edF6ziyMensPVqLTSc1PiSEA==
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.6.2.tgz#de67d42c755b571d3e698df1b6504cde9b0ee9f2"
+  integrity sha512-7i24Ri4pmDRfJTR7LDBhsOTtcm+9kjX5WiY1X3wIisx6G9So3pfMkEiU7emUBe46oceVImccTEM3k6C5dbVW8A==
   dependencies:
     follow-redirects "^1.15.0"
     form-data "^4.0.0"
@@ -4125,9 +4125,9 @@ flush-write-stream@^1.0.0:
     readable-stream "^2.3.6"
 
 follow-redirects@^1.15.0:
-  version "1.15.2"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.2.tgz#b460864144ba63f2681096f274c4e57026da2c13"
-  integrity sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==
+  version "1.15.3"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.3.tgz#fe2f3ef2690afce7e82ed0b44db08165b207123a"
+  integrity sha512-1VzOtuEM8pC9SFU1E+8KfTjZyMztRsgEfwQl44z8A25uy13jSzTj6dyK2Df52iV0vgHCfBwLhDWevLn95w5v6Q==
 
 for-each@^0.3.3:
   version "0.3.3"
